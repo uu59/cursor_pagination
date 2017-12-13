@@ -20,10 +20,11 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.license       = "MPL-2.0"
 
+  spec.add_dependency "activerecord", "~> 5.1"
+
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.5"
   spec.add_development_dependency "rspec", "~> 3.7"
-  spec.add_development_dependency "activerecord", "~> 5.1"
   spec.add_development_dependency "mysql2", "~> 0.4"
   spec.add_development_dependency "pry-byebug", "~> 3.5"
 end
